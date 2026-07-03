@@ -118,7 +118,7 @@ export default function Hero() {
           }}
         >
           {/* Static asset served from /public — works on Vite dev, Vercel, any static host */}
-          <source src="/hero-animation.mp4" type="video/mp4" />
+          <source src="/brighthorizon-hero.mp4" type="video/mp4" />
         </video>
       </div>
     </header>
