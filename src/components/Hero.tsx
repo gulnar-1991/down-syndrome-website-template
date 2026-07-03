@@ -108,17 +108,17 @@ export default function Hero() {
           className="hero-bg-video"
           style={{
             objectFit: "cover",
-            objectPosition: "center top",
+            objectPosition: "center",
             width: "100%",
             height: "100%",
             position: "absolute",
             inset: 0,
             zIndex: 0,
-            clipPath: "inset(0 0 10% 0)"
+            filter: "brightness(1.15)"
           }}
         >
           {/* Static asset served from /public — works on Vite dev, Vercel, any static host */}
-          <source src="/brighthorizon-hero.mp4" type="video/mp4" />
+          <source src="/hero-animation.mp4" type="video/mp4" />
         </video>
       </div>
     </header>
